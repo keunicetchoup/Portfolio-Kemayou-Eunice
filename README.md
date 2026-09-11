@@ -1,25 +1,25 @@
-# Portfolio personnel
+# Portfolio de Eunice Kemayou
 
-Portfolio one-page statique, concu pour un deploiement gratuit sur GitHub Pages.
+Portfolio personnel de Eunice Priscille Kemayou Tantchou, ingénieure en informatique spécialisée en data, intelligence artificielle et développement web.
 
-## Fichiers
+## Structure
 
-- `index.html` : structure de la page
-- `styles.css` : design et responsive
-- `script.js` : animations d'apparition
-- `assets/` : photos utilisees dans le portfolio
+- `index.html` : contenu et structure de la page
+- `styles.css` : design responsive sombre, turquoise et orange
+- `script.js` : animations, navigation mobile et navigation active
+- `assets/` : portraits utilisés dans le portfolio
+- `CNAME` : domaine personnalisé GitHub Pages
 
-## Publier sur GitHub Pages
+## Publication sur GitHub Pages
 
-1. Cree un depot GitHub.
-2. Envoie ce dossier dans le depot.
-3. Va dans `Settings > Pages`.
-4. Choisis `Deploy from a branch`.
-5. Selectionne la branche principale et le dossier `/root`.
-6. GitHub Pages publiera automatiquement le site.
+1. Envoyer le contenu de ce dossier dans le dépôt GitHub.
+2. Dans `Settings > Pages`, choisir `Deploy from a branch`.
+3. Sélectionner la branche principale et le dossier `/root`.
+4. Déclarer `eunicekemayou.me` dans le champ `Custom domain`.
+5. Configurer les DNS du domaine avec les enregistrements GitHub Pages.
 
-## Personnalisation rapide
+## Coordonnées utilisées
 
-- Remplace les liens de contact dans `index.html`.
-- Si besoin, change les textes de projets et d'experience.
-- Tu peux remplacer les images dans `assets/` en gardant les memes noms.
+- Email : eunicekemayou@gmail.com
+- LinkedIn : https://linkedin.com/in/eunice-kemayou
+- Site : https://eunicekemayou.me

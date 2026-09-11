@@ -3,298 +3,69 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Eunice | Portfolio Fullstack & IA</title>
-    <meta
-      name="description"
-      content="Portfolio de Eunice, développeuse fullstack et ingénieure en intelligence artificielle, spécialisée en solutions numériques, automatisation et transformation digitale."
-    />
+    <meta name="theme-color" content="#071416" />
+    <meta name="description" content="Portfolio de Eunice Priscille Kemayou Tantchou, ingénieure en informatique spécialisée en data, intelligence artificielle et développement web." />
+    <link rel="canonical" href="https://eunicekemayou.me/" />
+    <title>Eunice Kemayou | Data, IA & Développement</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="page-shell">
-      <header class="site-header">
-        <a class="brand" href="#accueil">Eunice</a>
-        <nav class="site-nav">
-          <a href="#apropos">A propos</a>
-          <a href="#projets">Projets</a>
-          <a href="#experience">Experience</a>
-          <a href="#contact">Contact</a>
-        </nav>
-      </header>
+    <div class="ambient ambient-one" aria-hidden="true"></div>
+    <div class="ambient ambient-two" aria-hidden="true"></div>
 
-      <main>
-        <section class="hero section" id="accueil">
-          <div class="hero-copy reveal">
-            <p class="eyebrow">Portfolio | Fullstack & IA</p>
-            <h1>
-              Developpeuse fullstack et ingenieure en intelligence artificielle
-            </h1>
-            <p class="lead">
-              Je conçois des solutions numeriques elegantes, utiles et
-              accessibles pour accompagner la transformation digitale des
-              organisations et des services au Cameroun.
-            </p>
-            <div class="hero-actions">
-              <a class="button button-primary" href="#projets">Voir mes projets</a>
-              <a class="button button-secondary" href="#contact">Me contacter</a>
-            </div>
-            <ul class="hero-highlights">
-              <li>Python, Django, Flask, WordPress</li>
-              <li>Automatisation, data analysis, machine learning</li>
-              <li>Vision produit, infrastructure et impact public</li>
-            </ul>
-          </div>
+    <header class="site-header">
+      <a class="brand" href="#accueil" aria-label="Retour à l'accueil"><span class="brand-mark">EK</span><span class="brand-name">Eunice<span>.</span></span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span class="sr-only">Ouvrir le menu</span></button>
+      <nav class="site-nav" id="site-nav" aria-label="Navigation principale">
+        <a class="active" href="#accueil">Accueil</a><a href="#apropos">À propos</a><a href="#competences">Compétences</a><a href="#parcours">Parcours</a><a href="#projets">Projets</a><a class="nav-contact" href="#contact">Me contacter <span>↗</span></a>
+      </nav>
+    </header>
 
-          <div class="hero-visual reveal">
-            <div class="portrait-frame">
-              <img
-                src="assets/hero.jpg"
-                alt="Portrait professionnel de Eunice"
-              />
-            </div>
-            <div class="floating-card">
-              <span class="floating-label">Certification</span>
-              <strong>IT Specialist - Artificial Intelligence</strong>
-              <a
-                href="https://www.credly.com/badges/8b99b644-20c1-42c1-a85f-abca940d173d/whatsapp"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Voir le badge Credly
-              </a>
-            </div>
-          </div>
-        </section>
+    <main>
+      <section class="hero section" id="accueil">
+        <div class="hero-copy reveal">
+          <p class="kicker"><span class="status-dot"></span> Disponible pour de nouvelles opportunités</p>
+          <p class="eyebrow">Ingénieure en informatique · Data · IA</p>
+          <h1>Je transforme les données en <em>solutions utiles.</em></h1>
+          <p class="hero-lead">Je suis Eunice Priscille Kemayou Tantchou, spécialiste IT orientée data et intelligence artificielle. Je conçois des produits numériques fiables, du besoin métier jusqu'à la mise en œuvre.</p>
+          <div class="hero-actions"><a class="button button-primary" href="#projets">Découvrir mes projets <span>↗</span></a><a class="button button-ghost" href="mailto:eunicekemayou@gmail.com">Échanger avec moi</a></div>
+          <div class="hero-facts" aria-label="Informations clés"><div><strong>Yaoundé</strong><span>Cameroun</span></div><div><strong>Data & IA</strong><span>Spécialité</span></div><div><strong>2026</strong><span>En activité</span></div></div>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="hero-orbit orbit-one" aria-hidden="true"></div><div class="hero-orbit orbit-two" aria-hidden="true"></div>
+          <div class="hero-image-wrap"><div class="hero-image-glow" aria-hidden="true"></div><img src="assets/hero.jpg" alt="Portrait professionnel de Eunice Kemayou" /><span class="image-caption">Eunice Kemayou<br /><small>Data · IA · Web</small></span></div>
+          <div class="floating-chip chip-python"><span>⌘</span> Python</div><div class="floating-chip chip-data"><span>◌</span> Data</div><div class="hero-stamp" aria-hidden="true">SCROLL<br /><span>↓</span></div>
+        </div>
+      </section>
 
-        <section class="section intro-grid" id="apropos">
-          <div class="section-heading reveal">
-            <p class="eyebrow">A propos</p>
-            <h2>Un profil hybride entre technologie, donnees et services</h2>
-          </div>
+      <section class="trust-strip reveal" aria-label="Domaines d'expertise"><span>Je travaille à l'intersection de</span><strong>Data analysis</strong><i>✦</i><strong>Machine learning</strong><i>✦</i><strong>Développement web</strong><i>✦</i><strong>Transformation digitale</strong></section>
 
-          <div class="intro-copy reveal">
-            <p>
-              Ingenieure en intelligence artificielle avec une base solide en
-              mathematiques, reseaux informatiques et developpement web, je
-              construis des solutions completes, de l'idee jusqu'au produit.
-            </p>
-            <p>
-              Mon ambition est de contribuer a la digitalisation des services
-              publics et prives avec des applications fiables, securisees et
-              pensees pour les besoins locaux.
-            </p>
-          </div>
+      <section class="about section" id="apropos">
+        <div class="section-label reveal"><span>01</span><span>À propos</span></div>
+        <div class="about-layout"><div class="about-title reveal"><p class="eyebrow">Un profil hybride</p><h2>La rigueur de la donnée, <em>la vision du produit.</em></h2></div><div class="about-copy reveal"><p>Mon parcours réunit ingénierie informatique, mathématiques, réseaux et développement logiciel. J'aime comprendre un problème dans son ensemble avant de construire une réponse simple, mesurable et adaptée.</p><p>Aujourd'hui, je contribue à des projets où la donnée aide les organisations à mieux décider et à rendre leurs services plus efficaces.</p><a class="text-link" href="#contact">Parlons de votre projet <span>→</span></a></div></div>
+        <div class="about-cards"><article class="info-card reveal"><span class="card-number">01</span><h3>Analyser</h3><p>Explorer, nettoyer et modéliser les données pour révéler ce qui compte.</p></article><article class="info-card reveal"><span class="card-number">02</span><h3>Construire</h3><p>Développer des applications robustes, accessibles et pensées pour leurs utilisateurs.</p></article><article class="info-card reveal"><span class="card-number">03</span><h3>Améliorer</h3><p>Automatiser les tâches et mesurer les résultats pour faire progresser les opérations.</p></article></div>
+      </section>
 
-          <div class="intro-panel reveal">
-            <h3>Points forts</h3>
-            <ul class="check-list">
-              <li>Developpement frontend et backend en Python</li>
-              <li>Analyse de donnees et intelligence artificielle</li>
-              <li>Experience en reseau informatique et deploiement systeme</li>
-              <li>Capacite a transformer un besoin en solution concrete</li>
-            </ul>
-          </div>
-        </section>
+      <section class="skills section dark-section" id="competences">
+        <div class="section-label light reveal"><span>02</span><span>Compétences</span></div><div class="section-intro reveal"><p class="eyebrow">Mon terrain de jeu</p><h2>Des outils pour passer de l'idée à l'impact.</h2></div>
+        <div class="skill-grid"><article class="skill-panel reveal"><span class="skill-icon">⌁</span><h3>Data & IA</h3><div class="tag-list"><span>Machine learning</span><span>NLP</span><span>Data preprocessing</span><span>Analyse prédictive</span><span>Scikit-learn</span></div></article><article class="skill-panel reveal"><span class="skill-icon">⌘</span><h3>Analyse & visualisation</h3><div class="tag-list"><span>Python</span><span>Pandas</span><span>NumPy</span><span>Matplotlib</span><span>Seaborn</span><span>Excel</span></div></article><article class="skill-panel reveal"><span class="skill-icon">◫</span><h3>Développement</h3><div class="tag-list"><span>Django</span><span>Flutter</span><span>WordPress</span><span>Elementor</span><span>API</span><span>Python</span></div></article><article class="skill-panel reveal"><span class="skill-icon">◉</span><h3>Bases & méthodes</h3><div class="tag-list"><span>PostgreSQL</span><span>MySQL</span><span>SQLite</span><span>Data modeling</span><span>KPI & reporting</span><span>SCRUM</span></div></article></div>
+      </section>
 
-        <section class="section skills-section">
-          <div class="section-heading reveal">
-            <p class="eyebrow">Competences</p>
-            <h2>Des outils techniques pour construire des produits utiles</h2>
-          </div>
+      <section class="journey section" id="parcours">
+        <div class="section-label reveal"><span>03</span><span>Parcours</span></div>
+        <div class="journey-layout"><div class="journey-heading reveal"><p class="eyebrow">Expérience professionnelle</p><h2>Des missions où la technique sert le <em>terrain.</em></h2><p>De la donnée à l'infrastructure, chaque expérience a renforcé ma capacité à relier les enjeux opérationnels et les solutions numériques.</p></div><div class="timeline"><article class="timeline-item featured-line reveal"><div class="timeline-date">Avril 2026 — Aujourd'hui</div><div><h3>Développeuse web & mobile</h3><p class="company">NAUMUR</p><p>Contribution à une plateforme de collecte, traitement et analyse de données. Développement backend avec Python et Django, amélioration des performances et participation à une application mobile interne avec Flutter.</p></div></article><article class="timeline-item reveal"><div class="timeline-date">Juin — Déc. 2025</div><div><h3>Chef des opérations & développeuse web</h3><p class="company">KLADRIVA</p><p>Pilotage des opérations, suivi des dossiers clients, optimisation des processus et conception de sites professionnels avec WordPress et Elementor.</p></div></article><article class="timeline-item reveal"><div class="timeline-date">Juil. — Sept. 2020</div><div><h3>Ingénieur de travaux réseaux informatiques</h3><p class="company">GLOBAL NUMERICA FINANCE</p><p>Installation, configuration et maintenance d'infrastructures réseau et Wi-Fi, tests, déploiement et maintenance du parc informatique.</p></div></article></div></div>
+      </section>
 
-          <div class="skills-grid">
-            <article class="skill-card reveal">
-              <h3>Frontend</h3>
-              <p>HTML, CSS, JavaScript, WordPress, Elementor</p>
-            </article>
-            <article class="skill-card reveal">
-              <h3>Backend</h3>
-              <p>Python, Django, Flask, API, logique metier</p>
-            </article>
-            <article class="skill-card reveal">
-              <h3>Data & IA</h3>
-              <p>Machine learning, NLP, analyse de donnees, automatisation</p>
-            </article>
-            <article class="skill-card reveal">
-              <h3>Systemes</h3>
-              <p>Reseaux, administration systeme, maintenance et deploiement</p>
-            </article>
-          </div>
-        </section>
+      <section class="education section"><div class="education-heading reveal"><p class="eyebrow">Formation & certifications</p><h2>Un parcours construit entre logique, curiosité et pratique.</h2></div><div class="education-grid"><article class="education-card primary reveal"><span>2020 — 2024</span><h3>Master 2 en ingénierie informatique</h3><p>Université de Ngaoundéré</p><small>Spécialisation : Text Classification of OCR Extracted Data</small></article><article class="education-card reveal"><span>2017 — 2020</span><h3>Licence en mathématiques et informatique</h3><p>Université de Ngaoundéré</p></article><article class="education-card reveal"><span>Certifications</span><h3>IT Specialist — Artificial Intelligence</h3><p>Pearson · FreeCodeCamp · DataCamp</p><small>Python, APIs, bases relationnelles, AI engineering</small></article></div><div class="leadership reveal"><span class="eyebrow">Leadership & communauté</span><p><strong>Team Lead Manager</strong> — Women Techmakers Ngaoundéré <i>·</i> <strong>Commissaire aux comptes</strong> — 237 NUmericoeur <i>·</i> <strong>Responsable de la jeunesse</strong> — EEC Galilée Dang</p></div></section>
 
-        <section class="section projects-section" id="projets">
-          <div class="section-heading reveal">
-            <p class="eyebrow">Projets</p>
-            <h2>Quelques realisations qui montrent mon approche terrain</h2>
-          </div>
+      <section class="projects section" id="projets"><div class="section-topline reveal"><div><div class="section-label"><span>04</span><span>Projets</span></div><h2>Quelques réalisations en <em>action.</em></h2></div><a class="text-link" href="https://github.com/naumur2017-del/Padesce" target="_blank" rel="noreferrer">Voir GitHub <span>↗</span></a></div><div class="project-grid"><article class="project-card project-large reveal"><div class="project-number">01</div><div class="project-visual project-visual-data"><span class="visual-line line-one"></span><span class="visual-line line-two"></span><span class="visual-dot dot-one"></span><span class="visual-dot dot-two"></span><span class="visual-dot dot-three"></span><span class="visual-label">DATA / PLATFORM</span></div><div class="project-content"><span class="project-type">Projet collaboratif</span><h3>Plateforme de données — NAUMUR</h3><p>Collecte, traitement et analyse de données pour accompagner les décisions de grandes organisations.</p><div class="project-tags"><span>Python</span><span>Django</span><span>Data</span></div></div></article><article class="project-card reveal"><div class="project-number">02</div><div class="project-visual project-visual-web"><span class="window-dot"></span><span class="window-dot"></span><span class="window-dot"></span><div class="mini-window"><b>web</b><span></span><span></span><span></span></div></div><div class="project-content"><span class="project-type">Web & opérations</span><h3>Sites professionnels</h3><p>Des expériences web claires et responsives avec WordPress et Elementor.</p><div class="project-tags"><span>WordPress</span><span>UX</span></div></div></article><article class="project-card reveal"><div class="project-number">03</div><div class="project-visual project-visual-network"><span class="network-node node-a"></span><span class="network-node node-b"></span><span class="network-node node-c"></span><span class="network-node node-d"></span><span class="network-link link-a"></span><span class="network-link link-b"></span><span class="network-link link-c"></span></div><div class="project-content"><span class="project-type">Infrastructure</span><h3>Réseaux & systèmes</h3><p>Installation, maintenance et optimisation d'environnements réseau fiables.</p><div class="project-tags"><span>Réseaux</span><span>Déploiement</span></div></div></article></div></section>
 
-          <div class="projects-grid">
-            <article class="project-card reveal featured">
-              <div class="project-meta">Projet collaboratif</div>
-              <h3>CallApp Naumur</h3>
-              <p>
-                Application de gestion et de communication concue pour faciliter
-                les interactions entre utilisateurs et structurer les flux
-                applicatifs.
-              </p>
-              <ul>
-                <li>Contribution backend en Python</li>
-                <li>Structuration de l'application et travail collaboratif</li>
-                <li>Experience de developpement sur GitHub</li>
-              </ul>
-              <a
-                href="https://github.com/naumur2017-del/Padesce"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Voir le code source
-              </a>
-            </article>
-
-            <article class="project-card reveal">
-              <div class="project-meta">WordPress</div>
-              <h3>Sites web professionnels</h3>
-              <p>
-                Conception de sites modernes, responsives et clairs pour aider
-                les clients a renforcer leur presence en ligne.
-              </p>
-            </article>
-
-            <article class="project-card reveal">
-              <div class="project-meta">Python</div>
-              <h3>Automatisation de taches</h3>
-              <p>
-                Scripts pour accelerer les processus repetitifs, reduire les
-                erreurs et faire gagner du temps aux equipes.
-              </p>
-            </article>
-
-            <article class="project-card reveal accent">
-              <div class="project-meta">Vision e-gov</div>
-              <h3>Simulation de plateforme e-service</h3>
-              <p>
-                Concept de service numerique pour demandes administratives,
-                suivi de dossier et experience citoyen plus fluide.
-              </p>
-            </article>
-          </div>
-        </section>
-
-        <section class="section spotlight-section">
-          <div class="spotlight-text reveal">
-            <p class="eyebrow">Vision</p>
-            <h2>Mettre la technologie au service de la transformation digitale</h2>
-            <p>
-              Je souhaite participer a des projets qui modernisent les services,
-              ameliorent l'acces a l'information et rendent les outils
-              numeriques plus utiles, plus simples et plus performants.
-            </p>
-          </div>
-
-          <div class="spotlight-gallery">
-            <div class="gallery-card reveal">
-              <img
-                src="assets/portrait-alt.jpg"
-                alt="Portrait de Eunice en tenue verte"
-              />
-            </div>
-            <div class="gallery-card reveal">
-              <img
-                src="assets/portrait-soft.jpeg"
-                alt="Portrait de Eunice en tenue professionnelle"
-              />
-            </div>
-          </div>
-        </section>
-
-        <section class="section experience-section" id="experience">
-          <div class="section-heading reveal">
-            <p class="eyebrow">Experience</p>
-            <h2>Des roles complementaires entre produit, donnees et reseau</h2>
-          </div>
-
-          <div class="timeline">
-            <article class="timeline-item reveal">
-              <span class="timeline-role">Kladriva</span>
-              <h3>Developpeuse web & chef des operations</h3>
-              <p>
-                Developpement de sites web professionnels, optimisation des
-                processus internes et accompagnement des clients.
-              </p>
-            </article>
-
-            <article class="timeline-item reveal">
-              <span class="timeline-role">Global Numerica Finance</span>
-              <h3>Ingenieure reseau</h3>
-              <p>
-                Installation et configuration reseau, maintenance des systemes
-                et amelioration de la stabilite de l'infrastructure.
-              </p>
-            </article>
-
-            <article class="timeline-item reveal">
-              <span class="timeline-role">Naumur</span>
-              <h3>Data analyst & developpeuse</h3>
-              <p>
-                Analyse de donnees, participation au developpement logiciel et
-                collaboration sur des projets numeriques.
-              </p>
-            </article>
-          </div>
-        </section>
-
-        <section class="section education-section">
-          <div class="section-heading reveal">
-            <p class="eyebrow">Formation</p>
-            <h2>Un parcours oriente rigueur, logique et innovation</h2>
-          </div>
-
-          <div class="education-grid">
-            <article class="education-card reveal">
-              <h3>Master en ingenierie informatique</h3>
-              <p>Approche systeme, developpement et architectures logicielles.</p>
-            </article>
-            <article class="education-card reveal">
-              <h3>Licence en mathematiques et informatique</h3>
-              <p>Base analytique solide pour la programmation et la data.</p>
-            </article>
-            <article class="education-card reveal">
-              <h3>Certification en intelligence artificielle</h3>
-              <p>
-                Badge Credly disponible en ligne pour valoriser le parcours.
-              </p>
-            </article>
-          </div>
-        </section>
-
-        <section class="section contact-section" id="contact">
-          <div class="contact-card reveal">
-            <p class="eyebrow">Contact</p>
-            <h2>Disponible pour des opportunites, collaborations et projets tech</h2>
-            <p>
-              Ce portfolio est pret pour GitHub Pages. Il ne te reste qu'a
-              remplacer les liens de contact ci-dessous par tes coordonnees.
-            </p>
-            <div class="contact-links">
-              <a href="mailto:votre.email@example.com">Email</a>
-              <a href="https://wa.me/237600000000" target="_blank" rel="noreferrer"
-                >WhatsApp</a
-              >
-              <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer"
-                >LinkedIn</a
-              >
-            </div>
-          </div>
-        </section>
-      </main>
-    </div>
-
+      <section class="contact section" id="contact"><div class="contact-card reveal"><div class="contact-copy"><p class="eyebrow">05 · Contact</p><h2>Construisons quelque chose de <em>pertinent.</em></h2><p>Vous avez un projet data, IA, web ou digital à structurer ? Je serais ravie d'en discuter avec vous.</p></div><div class="contact-actions"><a class="button button-primary" href="mailto:eunicekemayou@gmail.com">eunicekemayou@gmail.com <span>↗</span></a><a class="button button-outline" href="https://linkedin.com/in/eunice-kemayou" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a><a class="phone-link" href="tel:+237696214327">+237 696 214 327</a></div></div></section>
+    </main>
+    <footer class="site-footer"><span>© 2026 Eunice Kemayou</span><span>Data · IA · Développement</span><a href="#accueil">Retour en haut ↑</a></footer>
     <script src="script.js"></script>
   </body>
 </html>
